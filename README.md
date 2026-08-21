@@ -1,6 +1,8 @@
 # FAS I/O Connection Test
 
 FASTECH Ezi-MOTION Plus-E 계열 Ethernet I/O 장치에 연결해 디지털 출력 두 개를 키보드로 제어하는 .NET 콘솔 테스트 프로그램입니다.
+사용 제품은 Ezi-IO-EN-I8O8-E 입니다.
+> dll 출처 : Ezi-IO Ethernet DIO package (https://fastech-motions.com/new/kor/sub0301.php)
 
 ## 주요 특징
 
@@ -23,7 +25,7 @@ FASTECH Ezi-MOTION Plus-E 계열 Ethernet I/O 장치에 연결해 디지털 출�
 | 순차 동작 지연 | 5초 |
 | 대상 프레임워크 | .NET 10 (`net10.0`) |
 
-> 콘솔의 초기 안내 문구에는 Output 6/7로 표시되지만, 현재 소스가 실제로 제어하는 포트는 Output 15/16입니다.
+> 현재 소스가 실제로 제어하는 포트는 Output 15/16입니다.
 
 ## 동작 방식
 
