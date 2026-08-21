@@ -1,0 +1,15 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# .NET build output
+**/bin/
+**/obj/
+
+# FASTECH native SDK binaries (install locally from the official SDK)
+**/EziMOTIONPlusE.dll
+**/EziMOTIONPlusE.lib
+
+# Runtime logs
+*.log
